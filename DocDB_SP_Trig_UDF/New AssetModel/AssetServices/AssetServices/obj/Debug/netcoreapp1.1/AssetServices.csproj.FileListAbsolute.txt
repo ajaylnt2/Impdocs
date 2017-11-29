@@ -1,0 +1,11 @@
+F:\Wages Microservices\AssetServices\AssetModel\AssetServices\AssetServices\bin\Debug\netcoreapp1.1\AssetServices.deps.json
+F:\Wages Microservices\AssetServices\AssetModel\AssetServices\AssetServices\bin\Debug\netcoreapp1.1\AssetServices.runtimeconfig.json
+F:\Wages Microservices\AssetServices\AssetModel\AssetServices\AssetServices\bin\Debug\netcoreapp1.1\AssetServices.runtimeconfig.dev.json
+F:\Wages Microservices\AssetServices\AssetModel\AssetServices\AssetServices\bin\Debug\netcoreapp1.1\AssetServices.dll
+F:\Wages Microservices\AssetServices\AssetModel\AssetServices\AssetServices\bin\Debug\netcoreapp1.1\AssetServices.pdb
+F:\Wages Microservices\AssetServices\AssetModel\AssetServices\AssetServices\bin\Debug\netcoreapp1.1\AssetModel.dll
+F:\Wages Microservices\AssetServices\AssetModel\AssetServices\AssetServices\bin\Debug\netcoreapp1.1\AssetModel.pdb
+F:\Wages Microservices\AssetServices\AssetModel\AssetServices\AssetServices\obj\Debug\netcoreapp1.1\AssetServices.csprojResolveAssemblyReference.cache
+F:\Wages Microservices\AssetServices\AssetModel\AssetServices\AssetServices\obj\Debug\netcoreapp1.1\AssetServices.AssemblyInfo.cs
+F:\Wages Microservices\AssetServices\AssetModel\AssetServices\AssetServices\obj\Debug\netcoreapp1.1\AssetServices.dll
+F:\Wages Microservices\AssetServices\AssetModel\AssetServices\AssetServices\obj\Debug\netcoreapp1.1\AssetServices.pdb

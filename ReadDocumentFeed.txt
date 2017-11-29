@@ -1,0 +1,29 @@
+private async Task<string> ReadDocumentFeed(string collectionLink,string Start, string End)
+        {
+            List<dynamic> _documents = new List<dynamic>();
+
+            var sql = $"Select c.Data.Pressure From c Where c.TimeStamp BETWEEN {Start} AND {End}";
+            var query = _client
+               .CreateDocumentQuery(collectionLink, sql)
+               .AsDocumentQuery();
+
+            while (query.HasMoreResults)
+            {
+                var documents = await query.ExecuteNextAsync();
+
+                foreach (var doc in documents)
+                {
+                    _documents.Add(doc);
+                    Console.WriteLine(doc);
+                }
+            }
+            //var result = await _client.ReadDocumentFeedAsync(collectionLink, new FeedOptions { MaxItemCount = limit });
+
+
+            //foreach (Document doc in result)
+            //{
+            //    Console.WriteLine(doc);
+            //    _documents.Add(doc);
+            //}
+            return JsonConvert.SerializeObject(_documents);
+        }

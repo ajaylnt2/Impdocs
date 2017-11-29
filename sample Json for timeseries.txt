@@ -1,0 +1,54 @@
+[
+	{
+		"TagName" : "Alpha",
+		"TimeStamp" : "",
+		"Data" :[
+					{
+						"Pressure" : "100",
+						"UOM" : "PSI"
+					}
+				],
+		"Attribute":[
+						{
+							"EnergyType" : "Water"
+						}
+					]
+	},
+	{
+		"TagName" : "Beta",
+		"TimeStamp" : "",
+		"Data" :[
+					{
+						"Humidity" : "102",
+						"UOM" : "PSI"
+					}
+				],
+		"Attribute":[
+						{
+							"EnergyType" : "Water"
+						}
+					]
+	},
+	{
+		"TagName" : "Gamma",
+		"TimeStamp" : "",
+		"Data" :[
+					{
+						"Temperatur" : "102",
+						"UOM" : "FH"
+					}
+				],
+		"Attribute":[
+						{
+							"EnergyType" : "Water"
+						}
+					]
+	}
+
+]
+
+01-01-2017
+
+01-08-2017
+
+Day Time Stamp

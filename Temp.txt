@@ -1,0 +1,47 @@
+private async Task<string> ReadDocumentFeed(string collectionLink, int limit)
+        {
+            //var sql = "SELECT TOP @limit * FROM c";
+            //var query = _client
+            //   .CreateDocumentQuery(collectionLink, sql)
+            //   .AsDocumentQuery();
+
+            //while (query.HasMoreResults)
+            //{
+            //    var documents = await query.ExecuteNextAsync();
+
+            //    foreach (var document in documents)
+            //    {
+
+            //        Console.WriteLine(document);
+
+            //    }
+
+            //}
+
+            var result = await _client.ReadDocumentFeedAsync(collectionLink, new FeedOptions { MaxItemCount = limit });
+            List<Document> _documents = new List<Document>();
+            foreach (Document doc in result)
+            {
+                Console.WriteLine(doc);
+                _documents.Add(doc);
+            }
+            return JsonConvert.SerializeObject(_documents);
+        }
+
+
+
+
+
+
+
+
+
+        [HttpPost]
+        [Route("Datapoints")] 
+        public async Task<string> PostDatapoints([FromBody]object query)
+        {
+            var result = JsonConvert.DeserializeObject<TSQueryModel>(query.ToString());
+
+           return  await _tsManager.GetDataPoints(result);
+        }
+    }

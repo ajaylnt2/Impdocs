@@ -1,0 +1,11 @@
+F:\Wages Microservices\AssertServices\AssertModel\AssertServices\AssertServices\bin\Debug\netcoreapp1.1\AssertServices.deps.json
+F:\Wages Microservices\AssertServices\AssertModel\AssertServices\AssertServices\bin\Debug\netcoreapp1.1\AssertServices.runtimeconfig.json
+F:\Wages Microservices\AssertServices\AssertModel\AssertServices\AssertServices\bin\Debug\netcoreapp1.1\AssertServices.runtimeconfig.dev.json
+F:\Wages Microservices\AssertServices\AssertModel\AssertServices\AssertServices\bin\Debug\netcoreapp1.1\AssertServices.dll
+F:\Wages Microservices\AssertServices\AssertModel\AssertServices\AssertServices\bin\Debug\netcoreapp1.1\AssertServices.pdb
+F:\Wages Microservices\AssertServices\AssertModel\AssertServices\AssertServices\bin\Debug\netcoreapp1.1\AssertModel.dll
+F:\Wages Microservices\AssertServices\AssertModel\AssertServices\AssertServices\bin\Debug\netcoreapp1.1\AssertModel.pdb
+F:\Wages Microservices\AssertServices\AssertModel\AssertServices\AssertServices\obj\Debug\netcoreapp1.1\AssertServices.csprojResolveAssemblyReference.cache
+F:\Wages Microservices\AssertServices\AssertModel\AssertServices\AssertServices\obj\Debug\netcoreapp1.1\AssertServices.AssemblyInfo.cs
+F:\Wages Microservices\AssertServices\AssertModel\AssertServices\AssertServices\obj\Debug\netcoreapp1.1\AssertServices.dll
+F:\Wages Microservices\AssertServices\AssertModel\AssertServices\AssertServices\obj\Debug\netcoreapp1.1\AssertServices.pdb

@@ -1,0 +1,12 @@
+JSON DATA FORMAT:
+
+{
+    "start":"1505038058",
+    "end":"1507370858",
+    "tags" : 
+    	{
+    		"name" : ["Alpha"],
+    		"limit":2,
+    	"aggregations":["sum","avg","max","min"]           
+    	}
+} 

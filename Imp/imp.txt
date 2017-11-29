@@ -1,0 +1,8 @@
+LINUX:
+
+* You can Create a Custom docker Container and have a proxy nginx server which has two upstreams.
+
+* One serving angular app and
+* Another serving nodejs app.
+
+https://www.docker.com/products/docker-tolbox

@@ -1,0 +1,6 @@
+F:\Wages Microservices\AssetServices\AssetModel\AssetModel\bin\Debug\netcoreapp1.1\AssetModel.deps.json
+F:\Wages Microservices\AssetServices\AssetModel\AssetModel\bin\Debug\netcoreapp1.1\AssetModel.dll
+F:\Wages Microservices\AssetServices\AssetModel\AssetModel\bin\Debug\netcoreapp1.1\AssetModel.pdb
+F:\Wages Microservices\AssetServices\AssetModel\AssetModel\obj\Debug\netcoreapp1.1\AssetModel.AssemblyInfo.cs
+F:\Wages Microservices\AssetServices\AssetModel\AssetModel\obj\Debug\netcoreapp1.1\AssetModel.dll
+F:\Wages Microservices\AssetServices\AssetModel\AssetModel\obj\Debug\netcoreapp1.1\AssetModel.pdb

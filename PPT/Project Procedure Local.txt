@@ -1,0 +1,44 @@
+To Run Wages Project In VCODE:
+Basic things to be done done before to run the project locally
+--------------------------------------------------------------
+Check the Node Installation status in your system with latest versions.
+Check the Node Pack Manager(NPM) status in your system with latest versions.
+then,
+Go to> My computer-->Properties-->Advanced System Settings-->Environment Variables-->New in User variables section
+-->Variable Name: NODE_PATH
+-->Variable Value: node modules path from project folder (just like "E:\WAGES\node_modules")
+click "OK" completely for all sections.
+
+Open Visual Studio Code:
+
+1) File > Open Folder > Choose the folder path and Click "OK"
+
+2) Open two Terminal windows 
+   For that 
+   Click Ctrl+ ` to open a command editor 
+3) Command 1:Powershell.exe
+   got to folder path of project untill "srv"
+4) Inorder to start the Node server
+   use "npm index.js" and press Enter
+ 
+   If everything went fine it should display as shown below
+
+     E:\WAGES\srv> node index.js
+     [ INFO ] - Server started and listening at port:  3002
+
+5) Command2:Powershell.exe
+   go to project folder path again and type
+   gulp
+or
+   gulp serve
+   If everything fine it should display 
+   Webpack: Compiled Successfully
+
+Then go to browser and access portal through the local host port assigned
+ for current project use
+
+   http://localhost:3000
+
+Ex: for login     http://localhost:3000/login
+
+----------------------------------------------------------------------------------------------------------------------

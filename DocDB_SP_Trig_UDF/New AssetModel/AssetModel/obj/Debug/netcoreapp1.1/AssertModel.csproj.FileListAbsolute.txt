@@ -1,0 +1,7 @@
+F:\Wages Microservices\AssertServices\AssertModel\AssertModel\bin\Debug\netcoreapp1.1\AssertModel.deps.json
+F:\Wages Microservices\AssertServices\AssertModel\AssertModel\bin\Debug\netcoreapp1.1\AssertModel.dll
+F:\Wages Microservices\AssertServices\AssertModel\AssertModel\bin\Debug\netcoreapp1.1\AssertModel.pdb
+F:\Wages Microservices\AssertServices\AssertModel\AssertModel\obj\Debug\netcoreapp1.1\AssertModel.AssemblyInfo.cs
+F:\Wages Microservices\AssertServices\AssertModel\AssertModel\obj\Debug\netcoreapp1.1\AssertModel.dll
+F:\Wages Microservices\AssertServices\AssertModel\AssertModel\obj\Debug\netcoreapp1.1\AssertModel.pdb
+F:\Wages Microservices\AssertServices\AssertModel\AssertModel\obj\Debug\netcoreapp1.1\AssertModel.csprojResolveAssemblyReference.cache

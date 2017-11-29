@@ -1,0 +1,100 @@
+                                                     WEB APPLICTION DEPLOYMENT - AZURE CLOUD APP SERVICE
+                                                    *********************************************************************
+
+                                                    WAGES API:
+                                                    --------------------
+
+App Service Creation:
+App Type: Web App + SQL :
+..................................
+
+Step 1: Log in Microsoft Azure Account
+
+Step 2: Click "App Services" category
+
+Step 3: Click "Add" and in search type "Web App + SQL" type.
+
+Step 4: Click Create
+
+Step 4: Fill the details
+            App Name: wagesltts
+            Subscription: Free Trail
+            Resource Group: WAGES
+            App Service plan/Location: Choose your App Service Plan
+            Application Insights: Based on requirement(default off)
+           check "Pin To Dashboard"
+           Click "Create"
+
+Step 5:  At the Creation it will allow us to create Server for that App Service
+            Click Sql Database:
+            New Database: wagessql
+            Targeted Server: wagesserver.database.windows.net
+            username:wagesmaster
+            Password:wages@123
+
+Step 6: Click on your App Service after creation 
+            Status: Running
+            Url: http://lsiwebportal.azurewebsites.net
+            Click browse-It should display a dummy page template with respective url.
+
+Step 7: Go to Application Settings option in App Service and check the path in 
+           Virtual Applications and directories level
+             site\wwwroot\
+             (It varies depending on the application)
+
+Step 7: Here we have a chance to make a custom domain for our app service in "Custom Domain" category
+            we can change as per the choice.
+
+Step 8: Hence, a App Service with Datbase (WebAPP+SQL) is created successfully.
+-------------------------------------------------------------------------------------------------------------------------------------------------------
+Deployment:
+.......................
+(Using Source Control - Git Bash)
+
+Step 1: Install Git Bash latest version in your local machine.
+
+Step 2: Make a new folder and copy the source code into it and save it with the project name 
+Ex: "WAGES API"
+
+Step 3: Then, open Git bash and give the path as root folder of latest project as
+            just type:
+                        cd desktop (it gives path to desktop)
+                        cd WAGES API (it extends to project folder)
+                       
+             then type,
+                          git init (initialises git and it makes the project folder as your GIT repositry)
+
+Step 4: Now go back to portal and make git repositry bind with your App Service.
+for that,
+           Azure Portal 
+           -> Your App Service 
+           -> Deployment Options
+           -> Choose Data Source 
+                  in this select option as "Local Git Repositry"
+           -> Click "OK"
+
+Step 5: Go to Deployment Credentials options and note down the (Git Credentials)
+             > User name-wagesuser
+             > Password-user@123
+
+Step 6: Go to Properties in your App Service and copy the git remote path 
+            " Git Url"
+
+Step 7: Back to Git for deployment process
+            just type 
+            git add '*' (this command will add all your local repositry to GIT)
+            git commit -m " any related message" (which saves all the data in GIT repositry)
+            git remote add azure remotepath (remote path will GIT url which we copied earlier)
+            git push azure master
+            here we will have the chance to use the GIT Credentials
+            once the credentials are accepted
+            Then, GIT will push the source code to App Service
+             In other words Deployments process starts now.
+
+If everything fine finally GIT will dispaly
+"Deployment Completed Successfully".
+
+Step 8: Go to your App Service and click "Browse"
+
+Then it display the desired output with respect to the source code. 
+-------------------------------------------------------------------------------------------------------------------------------------------------------

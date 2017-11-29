@@ -1,0 +1,93 @@
+ //Retrieval
+            $(document).ready(function()
+                {
+
+                var data = [{
+                    "TagName":"Alpha",
+                    "TimeStamp":1502710432,
+                    "Data":{
+                        "Pressure":100,
+                        "UOM":"PSI"
+                            },
+                         "Attributes":{
+                        "EnergyType":"Water"}
+                },
+                  {
+                    "TagName":"Beta",
+                    "TimeStamp":1502796832,
+                    "Data":{
+                        "Pressure":101,
+                        "UOM":"PSI"},
+                     "Attributes":{
+                        "EnergyType":"Air"
+                            }
+                },
+                  {
+                    "TagName":"Alpha",
+                    "TimeStamp":1502883232,
+                    "Data":{
+                        "Pressure":102,
+                        "UOM":"PSI"
+                            },
+                     "Attributes":{
+                        "EnergyType":"Water"
+                            }
+                },
+                  {
+                    "TagName":"Beta",
+                    "TimeStamp":1502969632,
+                    "Data":{
+                        "Pressure":103,
+                        "UOM":"PSI"
+                            },
+                     "Attributes":{
+                        "EnergyType":"Air"
+                            }
+                },
+                  {
+                    "TagName":"Alpha",
+                    "TimeStamp":1503056032,
+                    "Data":{
+                        "Pressure":104,
+                        "UOM":"PSI"
+                            },
+                     "Attributes":{
+                        "EnergyType":"Water"
+                            }
+                },
+                  {
+                    "TagName":"Beta",
+                    "TimeStamp":1503142432,
+                    "Data":{
+                        "Pressure":105,
+                        "UOM":"PSI"
+                            },
+                     "Attributes":{
+                        "EnergyType":"Air"
+                            }
+                },
+                  {
+                    "TagName":"Alpha",
+                    "TimeStamp":1503228832,
+                    "Data":{
+                        "Pressure":106,
+                        "UOM":"PSI"
+                            },
+                     "Attributes":{
+                        "EnergyType":"Water"
+                            }
+];
+
+                var TimeStamp1 = "1502710432";
+                var TimeStamp2 = "1503228832";
+                var length = data.length;
+                var result = [];
+                for (var i = 0; i < length; i++)
+                {
+                    if (DateTime.Parse(data[i][4]) > TimeStamp1 && DateTime.Parse(data[i][4]) < TimeStamp2)
+                    {
+                        result.push(data[i]);
+                    }
+                }
+                alert(JSON.stringify(result));
+             });
